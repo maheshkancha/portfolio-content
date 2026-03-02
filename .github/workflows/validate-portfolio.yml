@@ -1,0 +1,34 @@
+name: Validate Portfolio JSON
+
+on:
+  push:
+    paths:
+      - "portfolio.json"
+      - "portfolio.schema.json"
+  pull_request:
+    paths:
+      - "portfolio.json"
+      - "portfolio.schema.json"
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install AJV CLI
+        run: npm install -g ajv-cli
+
+      - name: Validate portfolio.json against schema
+        run: |
+          ajv validate \
+            -s portfolio.schema.json \
+            -d portfolio.json \
+            --strict=false
