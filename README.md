@@ -148,6 +148,14 @@ https://raw.githubusercontent.com/<username>/<repo>/<branch>/portfolio.json
 
 This endpoint returns the latest validated portfolio data.
 
+OR
+
+The contents have been **published as GitHub pages**. So, contents can now be accessed as:
+
+```
+https://<username>.github.io/<repo>/<file_name.ext>
+```
+
 ---
 
 ## ✏️ How to Update Portfolio Content
