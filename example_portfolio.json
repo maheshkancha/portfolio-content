@@ -1,0 +1,36 @@
+{
+    "profile": {
+        "name": "Mahesh Bahadur",
+        "title": "Senior Staff Engineer",
+        "summary": "Full stack engineer with experience across multiple domains.",
+        "location": "India",
+        "yearsOfExperience": 12
+    },
+    "skills": [
+        {
+            "category": "Frontend",
+            "items": [
+                "JavaScript",
+                "React",
+                "Svelte",
+                "CSS3"
+            ]
+        },
+        {
+            "category": "Backend",
+            "items": [
+                "Node.js",
+                "Express",
+                "MySQL",
+                "Redis"
+            ]
+        }
+    ],
+    "experience": [],
+    "projects": [],
+    "domains": [
+        "Genealogy",
+        "Payments",
+        "Healthcare"
+    ]
+}

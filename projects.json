@@ -1,0 +1,23 @@
+{
+    "projects": [
+        {
+            "name": "Real-time Logistics Tracking Platform",
+            "description": "High-scale tracking and monitoring system for logistics fleet operations.",
+            "domain": "Logistics",
+            "tech": [
+                "Node.js",
+                "Redis",
+                "AWS Lambda",
+                "SQS"
+            ],
+            "highlights": [
+                "Handled 1M+ daily events",
+                "Real-time event processing",
+                "Fault-tolerant architecture"
+            ],
+            "image": "assets/project-images/logistics.png",
+            "github": null,
+            "demo": null
+        }
+    ]
+}

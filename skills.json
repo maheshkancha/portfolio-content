@@ -1,0 +1,39 @@
+{
+    "categories": [
+        {
+            "name": "Frontend",
+            "skills": [
+                "JavaScript",
+                "HTML5",
+                "CSS3",
+                "React.js",
+                "Svelte"
+            ]
+        },
+        {
+            "name": "Backend",
+            "skills": [
+                "Node.js",
+                "Express.js"
+            ]
+        },
+        {
+            "name": "Databases",
+            "skills": [
+                "MySQL",
+                "Redis",
+                "DynamoDB"
+            ]
+        },
+        {
+            "name": "Cloud & DevOps",
+            "skills": [
+                "Docker",
+                "AWS S3",
+                "AWS Lambda",
+                "SQS",
+                "SNS"
+            ]
+        }
+    ]
+}

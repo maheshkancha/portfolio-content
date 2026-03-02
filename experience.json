@@ -1,0 +1,24 @@
+{
+    "positions": [
+        {
+            "company": "Confidential / Multiple Organizations",
+            "role": "Senior Staff Engineer",
+            "start": "2019",
+            "end": "Present",
+            "responsibilities": [
+                "Architected distributed microservices",
+                "Led full-stack product development",
+                "Designed cloud-native deployments",
+                "Mentored engineering teams"
+            ],
+            "techStack": [
+                "Node.js",
+                "React",
+                "AWS",
+                "Docker",
+                "MySQL",
+                "Redis"
+            ]
+        }
+    ]
+}

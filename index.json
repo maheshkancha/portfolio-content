@@ -1,0 +1,14 @@
+{
+    "version": "1.0.0",
+    "lastUpdated": "2026-03-02",
+    "sections": {
+        "profile": "profile.json",
+        "about": "about.json",
+        "skills": "skills.json",
+        "experience": "experience.json",
+        "projects": "projects.json",
+        "domains": "domains.json",
+        "certifications": "certifications.json",
+        "contact": "contact.json"
+    }
+}
