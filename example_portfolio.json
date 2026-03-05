@@ -4,7 +4,19 @@
         "title": "Senior Staff Engineer",
         "summary": "Full stack engineer with experience across multiple domains.",
         "location": "India",
-        "yearsOfExperience": 12
+        "yearsOfExperience": 13,
+        "tagline": "Building scalable web platforms across payment, healthcare, logistics and real-estate domains.",
+        "avatar": "https://maheshkancha.github.io/portfolio-content/assets/profile.jpg",
+        "github": "https://github.com/maheshkancha",
+        "linkedin": "",
+        "stack": [
+          "JavaScript",
+          "React",
+          "Node.js",
+          "AWS",
+          "Docker",
+          "Redis"
+        ]
     },
     "skills": [
         {
