@@ -250,13 +250,34 @@
   "architecture": [
     {
       "system": "Visual Testing Platform",
-      "description": "Distributed visual regression testing platform using screenshot comparison and asynchronous execution pipeline.",
-      "diagram": "graph LR\nA[Git PR Trigger] --> B[Playwright Test Runner]\nB --> C[Screenshot Capture]\nC --> D[S3 Storage]\nD --> E[Visual Diff Engine]\nE --> F[Result Dashboard]\nE --> G[SNS Notification]"
+      "description": "Distributed visual regression testing platform using Playwright and asynchronous execution pipelines.",
+      "diagram": "graph LR\nA[Git PR Trigger] --> B[Playwright Test Runner]\nB --> C[Screenshot Capture]\nC --> D[S3 Storage]\nD --> E[Visual Diff Engine]\nE --> F[Result Dashboard]\nE --> G[SNS Notification]",
+      "metrics": [
+        "Reduced manual UI regression effort by 80%",
+        "Accelerated CI feedback cycle from hours to minutes",
+        "Enabled parallel execution across distributed workers",
+        "Improved release confidence for UI-heavy applications"
+      ]
     },
     {
       "system": "Content Targeting Platform",
-      "description": "Server side personalization system integrating Adobe Target SDK for targeted web experiences.",
-      "diagram": "graph LR\nA[User Request] --> B[Node Targeting Service]\nB --> C[Adobe Target]\nB --> D[Content Repository]\nC --> E[Personalized Response]"
+      "description": "Server-side personalization system integrating Adobe Target SDK.",
+      "diagram": "graph LR\nA[User Request] --> B[Node Targeting Service]\nB --> C[Adobe Target]\nB --> D[Content Repository]\nC --> E[Personalized Response]",
+      "metrics": [
+        "Improved page personalization accuracy",
+        "Reduced client-side experimentation latency",
+        "Centralized targeting logic for multi-site deployments"
+      ]
+    },
+    {
+      "system": "Real Estate Mapping Platform",
+      "description": "Geospatial platform for property visualization and editing.",
+      "diagram": "graph LR\nA[Property Data Import] --> B[Node API]\nB --> C[MySQL Storage]\nC --> D[React Map UI]\nD --> E[Property Visualization]",
+      "metrics": [
+        "Reduced property data import time by 40%",
+        "Improved map rendering performance for large datasets",
+        "Enabled faster property visualization workflows for analysts"
+      ]
     }
   ],
 
