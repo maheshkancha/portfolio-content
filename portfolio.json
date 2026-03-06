@@ -344,8 +344,41 @@
 
   "social": {
     "linkedin": "https://linkedin.com/in/your-linkedin",
-    "github": "https://github.com/your-github"
+    "github": "https://github.com/maheshkancha"
   },
+
+  "timeline": [
+    {
+      "year": "2012",
+      "title": "Software Engineer",
+      "company": "Wipro Technologies",
+      "highlight": "Started career building enterprise applications across healthcare and logistics domains."
+    },
+    {
+      "year": "2016",
+      "title": "Master in Software Engineering",
+      "company": "Wipro WILP Program",
+      "highlight": "Completed postgraduate engineering program while working."
+    },
+    {
+      "year": "2019",
+      "title": "Senior Software Engineer",
+      "company": "Berkadia",
+      "highlight": "Built geospatial real-estate platform with React, Node.js, MySQL and Docker."
+    },
+    {
+      "year": "2021",
+      "title": "Senior Software Engineer",
+      "company": "Altimetrik",
+      "highlight": "Developed PayPal developer documentation platform using modern React architecture."
+    },
+    {
+      "year": "2023",
+      "title": "Senior Staff Engineer",
+      "company": "Altimetrik",
+      "highlight": "Architecting scalable web platforms for Ancestry using React, Node.js and AWS."
+    }
+  ],
 
   "availability": {
     "noticePeriod": "2 months"
