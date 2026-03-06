@@ -247,6 +247,19 @@
     "Improved developer productivity using AI-generated unit tests"
   ],
 
+  "architecture": [
+    {
+      "system": "Visual Testing Platform",
+      "description": "Distributed visual regression testing platform using screenshot comparison and asynchronous execution pipeline.",
+      "diagram": "graph LR\nA[Git PR Trigger] --> B[Playwright Test Runner]\nB --> C[Screenshot Capture]\nC --> D[S3 Storage]\nD --> E[Visual Diff Engine]\nE --> F[Result Dashboard]\nE --> G[SNS Notification]"
+    },
+    {
+      "system": "Content Targeting Platform",
+      "description": "Server side personalization system integrating Adobe Target SDK for targeted web experiences.",
+      "diagram": "graph LR\nA[User Request] --> B[Node Targeting Service]\nB --> C[Adobe Target]\nB --> D[Content Repository]\nC --> E[Personalized Response]"
+    }
+  ],
+
   "education": [
     {
       "institution": "Wipro (WILP)",
