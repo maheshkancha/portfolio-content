@@ -1,0 +1,281 @@
+{
+  "profile": {
+    "name": "Mahesh Bahadur",
+    "title": "Senior Staff Engineer",
+    "summary": "Senior Staff Engineer with 13+ years of experience designing and delivering scalable, high-performance web platforms across genealogy, payments, real estate, healthcare and logistics domains. Expert in cloud-native distributed systems using React, Node.js and AWS. Experienced technical leader driving architecture decisions, mentoring engineers and improving engineering productivity using AI-assisted tooling.",
+    "location": "Hyderabad, India",
+    "yearsOfExperience": 13,
+    "avatarUrl": "https://maheshkancha.github.io/portfolio-content/assets/profile.jpg"
+  },
+
+  "contact": {
+    "phone": "+91-9959816395",
+    "email": "maheshkancha8@gmail.com"
+  },
+
+  "domains": [
+    "Genealogy",
+    "Payments",
+    "Real Estate",
+    "Healthcare",
+    "Logistics",
+    "Energy"
+  ],
+
+  "skills": [
+    {
+      "category": "Architecture & System Design",
+      "items": [
+        "Distributed Systems",
+        "Microservices Architecture",
+        "Event Driven Architecture",
+        "REST API Design",
+        "Performance Optimization",
+        "Secure Application Design"
+      ]
+    },
+    {
+      "category": "Cloud & DevOps",
+      "items": [
+        "AWS",
+        "EC2",
+        "S3",
+        "SQS",
+        "SNS",
+        "DynamoDB",
+        "Docker",
+        "ECS Fargate",
+        "Terraform",
+        "CI/CD"
+      ]
+    },
+    {
+      "category": "Backend Engineering",
+      "items": [
+        "Node.js",
+        "Express.js",
+        "API Design",
+        "Caching Strategies",
+        "Rate Limiting",
+        "Data Access Optimization"
+      ]
+    },
+    {
+      "category": "Frontend Platforms",
+      "items": [
+        "React.js",
+        "Redux",
+        "Remix.js",
+        "HTML5",
+        "CSS3",
+        "JavaScript"
+      ]
+    },
+    {
+      "category": "Data & Storage",
+      "items": [
+        "MySQL",
+        "MongoDB",
+        "SQL Server 2012",
+        "Redis"
+      ]
+    },
+    {
+      "category": "Testing & Quality",
+      "items": [
+        "Jest",
+        "React Testing Library",
+        "Playwright"
+      ]
+    },
+    {
+      "category": "AI & Developer Productivity",
+      "items": [
+        "GenAI based tooling",
+        "Amazon Q",
+        "Specification driven development"
+      ]
+    }
+  ],
+
+  "experience": [
+    {
+      "company": "Altimetrik India",
+      "client": "Ancestry",
+      "role": "Senior Staff Engineer",
+      "startDate": "2023-10-16",
+      "endDate": null,
+      "description": "Architect and lead development of scalable marketing and content platforms serving high-volume web traffic for Ancestry.",
+      "technologies": [
+        "React",
+        "Node.js",
+        "AWS",
+        "ECS Fargate",
+        "SQS",
+        "SNS",
+        "Lambda",
+        "Docker"
+      ]
+    },
+    {
+      "company": "Altimetrik India",
+      "client": "PayPal",
+      "role": "Senior Software Engineer",
+      "startDate": "2021-08-23",
+      "endDate": "2023-09-22",
+      "description": "Developed platform capabilities powering developer documentation and API reference delivery for PayPal.",
+      "technologies": [
+        "React",
+        "Redux",
+        "Remix",
+        "Swagger",
+        "Redocly",
+        "Docker",
+        "Jest"
+      ]
+    },
+    {
+      "company": "Berkadia",
+      "role": "Senior Software Engineer",
+      "startDate": "2019-02-13",
+      "endDate": "2021-08-20",
+      "description": "Designed and delivered full stack geospatial platform supporting property import, visualization and management.",
+      "technologies": [
+        "Node.js",
+        "React",
+        "Redux",
+        "MySQL",
+        "Docker",
+        "Jest"
+      ]
+    },
+    {
+      "company": "Wipro Technologies",
+      "client": "Novartis | FedEx | Itineris",
+      "role": "Senior Software Engineer / Team Lead / Software Engineer",
+      "startDate": "2012-08-27",
+      "endDate": "2019-01-25",
+      "description": "Delivered enterprise applications across healthcare, logistics and energy domains for clients Novartis, FedEx and Itineris respectively.",
+      "technologies": [
+        ".NET",
+        "C#",
+        "Angular 6",
+        "ASP.NET MVC 4",
+        "ADO.NET Entity Framework",
+        "ASP.NET Web API",
+        "SQL Server 2012",
+        "Windows Forms"
+      ]
+    }
+  ],
+
+  "projects": [
+    {
+      "name": "Visual Testing Platform",
+      "description": "Scalable visual regression testing platform that detects UI changes through automated screenshot comparison.",
+      "techStack": [
+        "Playwright",
+        "React",
+        "Node.js",
+        "AWS S3",
+        "AWS SQS",
+        "AWS SNS",
+        "MySQL"
+      ]
+    },
+    {
+      "name": "Content Admin Tool",
+      "description": "Content governance platform enabling controlled content configuration, approval workflows and environment-based deployments.",
+      "techStack": [
+        "React",
+        "TypeScript",
+        "Node.js",
+        "MySql"
+      ]
+    },
+    {
+      "name": "Content Targeting Platform",
+      "description": "Server-side content personalization platform integrating Adobe Target SDK to securely deliver targeted experiences.",
+      "techStack": [
+        "Node.js",
+        "Adobe Target SDK"
+      ]
+    },
+    {
+      "name": "Real Estate Mapping Platform",
+      "description": "Full stack geospatial application enabling property visualization, editing and export capabilities.",
+      "techStack": [
+        "React",
+        "Node.js",
+        "MySQL",
+        "Redux"
+      ]
+    }
+  ],
+
+  "architectureLeadership": [
+    {
+      "system": "Visual Testing Tool",
+      "highlights": [
+        "Designed asynchronous execution pipeline using AWS SQS and distributed Node workers",
+        "Implemented pixel level visual comparison engine",
+        "Stored snapshot baselines in AWS S3",
+        "Used SNS notifications for real time execution updates"
+      ]
+    },
+    {
+      "system": "Content Governance Platform",
+      "highlights": [
+        "Multi stage approval workflow for product and engineering stakeholders",
+        "Environment aware deployment to STAGE and PROD",
+        "Server side personalization integration with Adobe Target",
+        "Centralized experimentation logic"
+      ]
+    }
+  ],
+
+  "achievements": [
+    "Customer Champion award for Visual Testing Platform",
+    "Improved application response performance by 35%",
+    "Reduced API load by 40% through distributed caching",
+    "Winner of Berkadia Hackathon for Augmented Reality innovation"
+  ],
+
+  "aiExperience": [
+    "Built internal GenAI tools for multilingual content translation",
+    "Automated pull request review using AI-assisted analysis",
+    "Improved developer productivity using AI-generated unit tests"
+  ],
+
+  "education": [
+    {
+      "institution": "Wipro (WILP)",
+      "degree": "Master in Software Engineering",
+      "year": 2016
+    },
+    {
+      "institution": "Aurora Degree College, Osmania University",
+      "degree": "B.Sc. - Electronics",
+      "year": 2012
+    },
+    {
+      "institution": "Kendriya Vidyalaya Kanchanbagh",
+      "degree": "12th",
+      "year": 2009
+    },
+    {
+      "institution": "Kendriya Vidyalaya NPA",
+      "degree": "10th",
+      "year": 2007
+    }
+  ],
+
+  "social": {
+    "linkedin": "https://linkedin.com/in/your-linkedin",
+    "github": "https://github.com/your-github"
+  },
+
+  "availability": {
+    "noticePeriod": "2 months"
+  }
+}
