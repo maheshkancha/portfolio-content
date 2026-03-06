@@ -281,6 +281,44 @@
     }
   ],
 
+  "leadership": {
+    "summary": "Engineering leader with experience driving architecture decisions, mentoring engineers, and improving developer productivity across distributed teams.",
+    "areas": [
+      {
+        "title": "Architecture Leadership",
+        "items": [
+          "Designed distributed microservices platforms using Node.js and AWS",
+          "Led architecture design for visual testing and content governance systems",
+          "Established best practices for scalable API design and caching strategies"
+        ]
+      },
+      {
+        "title": "Technical Mentorship",
+        "items": [
+          "Mentored engineers on system design, testing and debugging techniques",
+          "Guided teams in adopting modern React architecture and testing practices",
+          "Conducted internal technical sessions and architecture reviews"
+        ]
+      },
+      {
+        "title": "Developer Productivity",
+        "items": [
+          "Introduced automated testing strategies using Playwright and Jest",
+          "Built tools improving developer workflow efficiency",
+          "Reduced CI execution times by introducing parallel test execution"
+        ]
+      },
+      {
+        "title": "Cross-Team Collaboration",
+        "items": [
+          "Partnered with product, design and QA teams to deliver scalable solutions",
+          "Led technical discussions across multiple engineering teams",
+          "Collaborated with platform teams to improve deployment reliability"
+        ]
+      }
+    ]
+  },
+
   "education": [
     {
       "institution": "Wipro (WILP)",
